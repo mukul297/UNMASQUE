@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+  
+    <form name='form' method='POST' action='/query_process_page' >   
+    
+      
+         
+        <div class="col-75">
+          <label for="subject">Write your query here:</label>
+        
+          <textarea id="n" name="QUERY" placeholder="blackbox query...." ></textarea>
+          <input type="submit" value="Submit" name="submit">
+        </div>
+  
+      
+  </form>
+ 
+
+
+
+
+{% endblock %}

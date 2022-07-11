@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+tr{
+ width:400px;
+
+}
+
+</style>
+
+<body>
+
+  <table>
+    <tr>
+      <th width="700px">your original(blackbox)  query  is:</th>
+      <th width="700px">output query</th>
+    </tr>
+    <tr>
+      <td><textarea>{{input_query}}</textarea>
+      </td>
+      <td><textarea>{{output_query}}</textarea></td>
+    </tr>
+  </table>
+
+  <a href="back_to_query_page"><button type="button" > back to query page</button></a>
+
+
+    
+    
+   
+
+</body>
+
+{% endblock %}
